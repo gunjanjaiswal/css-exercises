@@ -2,15 +2,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para {
+.para,.small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
 
-.small-para {
+/* .small-para {
   font-size: 14px;
   font-weight: 800;
-}
+} */
 
 body .para {
   font-size: 22px;
