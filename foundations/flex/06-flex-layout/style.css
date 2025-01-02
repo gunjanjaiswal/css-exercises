@@ -31,10 +31,15 @@ input {
 .header, .footer{
   display: flex;
   justify-content: space-between;
+  gap:1px;
 }
 
 ul{
   display: flex;
+  list-style-type: none;
+}
+
+a{
   text-decoration: none;
 }
 
