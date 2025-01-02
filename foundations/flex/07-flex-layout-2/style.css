@@ -8,12 +8,17 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size:36px;
+  align-content:center;
+  font-weight:800;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  align-self:center;
+  align-content:center;
 }
 
 .sidebar {
@@ -32,4 +37,11 @@ body{
   display:flex;
   flex-direction: column;
   align-items: stretch;
+  justify-content:space-between
 }
+
+.central{
+  display:flex;
+  
+}
+
