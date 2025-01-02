@@ -33,25 +33,20 @@ input {
 .header, .footer{
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 ul{
   display: flex;
   list-style-type: none;
+  gap: 16px;
 }
 
 a{
   text-decoration: none;
-  columns: rgb(90, 87, 87);
-  height:3px;
+  color: rgb(90, 87, 87);
 }
 
-.left-links,.right-links{
-  display: flex;
-  gap: 1px;
-  margin: 0;
-  padding: 0;
-}
 
 .footer{
   background-color: #eeeeee;
@@ -63,4 +58,5 @@ a{
   align-items: center;
   justify-content: center;
   flex: 1;
+  gap:16px;
 }
